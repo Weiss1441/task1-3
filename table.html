@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 3 - Table and Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Заголовок страницы -->
+  <h1 id="custom">Student Grades</h1>
+
+  <!-- Таблица -->
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Arsen</td>
+        <td>Math</td>
+        <td>A</td>
+      </tr>
+      <tr >
+        <td>History</td>
+        <td>B+</td>
+      </tr>
+      <tr class="highlight-row">
+        <td>Alina</td>
+        <td>Science</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>Dana</td>
+        <td>English</td>
+        <td>A-</td>
+      </tr>
+      <tr>
+        <td>Diana</td>
+        <td>Math</td>
+        <td>B+</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Форма -->
+  <h2 id="form-title">Feedback Form</h2>
+  <form class="feedback-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="role">Degree:</label>
+    <select id="role" name="role">
+      <option>Bachelor</option>
+      <option>Masters</option>
+      <option>Phd</option>
+    </select>
+
+    <label>Are you satisfied with your grade?</label>
+    <div class="radio-group">
+      <div class="radio-option">
+        <input type="radio" id="yes" name="like" value="yes">
+        <label for="yes">Yes</label>
+      </div>
+      <div class="radio-option">
+        <input type="radio" id="no" name="like" value="no">
+        <label for="no">No</label>
+      </div>
+    </div>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
