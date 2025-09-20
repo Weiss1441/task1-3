@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    background-color: #7f9dc9;
+    padding: 35px 0 25px 0;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    border-bottom: 0;
+}
+.box1 {
+    border:#8b8989;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-style:solid;
+    border-width:1px;
+    width:200px;
+
+}
+.Menu {
+    padding-left: 5px;
+}
+#navbar {
+    background-color: #01ffc8;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center; /* выравнивает ссылки по центру */
+    border-top: 0;
+}
+
+
+#navbar a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+.box2 {
+    border:black;
+    border-style:solid;
+    border-width:1px;
+    margin-top: 5px;
+    margin-left: 10px;  
+    padding-left: 10px;
+    position: absolute;
+    width: 600px;
+    height:100px;
+    top: 156px;
+    left: 220px; 
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+    .footer {
+        text-align: center;
+        padding: 20px 0;
+        background: #7f9dc9;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
