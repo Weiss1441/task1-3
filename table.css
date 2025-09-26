@@ -110,7 +110,10 @@ tbody tr:nth-child(even) {
   cursor: pointer;
   margin-top: 10px;
 }
-
+textarea {
+  height:100px;
+  resize:vertical;
+  
 .feedback-form button:hover {
   background-color: #2980b9;
 }
